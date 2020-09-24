@@ -1,0 +1,7 @@
+{
+    "pause": ["esc", "space"],
+    "up":["w", "uo"],
+    "down": ["s", "down"],
+    "left": ["a", "left"],
+    "right": ["d", "right"]
+}
