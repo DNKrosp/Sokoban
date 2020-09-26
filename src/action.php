@@ -19,8 +19,7 @@ class Action
     {
         $searchedAction = false;
         foreach ($this->actions as $action => $keys)
-            foreach ($keys as $key)
-                if($key == $pressedKey)
+            if(in_array($keys, $pressedKey))
                     $searchedAction = $action;
 
         return $searchedAction;
@@ -47,20 +46,20 @@ class Action
         else
             throw new Exception("Данная клавиша уже используется!", 20);
 
-        $isChanged = false;
+        $isChangedConfig = false;
 
         $configFile = fopen($this->pathToConfig.".new", "w");
         if(fwrite($configFile, json_encode($this->actions)))
         {
             if(file_exists($this->pathToConfig))
                 if(rename($this->pathToConfig, $this->pathToConfig.".bkp"))
-                    if(rename($this->pathToConfig.".new", $this->pathToConfig) && ($isChanged=true))
+                    if(rename($this->pathToConfig.".new", $this->pathToConfig) && ($isChangedConfig=true))
                         throw new Exception("Проблемы с доступом к файлу", 15);
                     else
                         throw new Exception("Файла конфигурации не существует", 15);
         } else
             throw new Exception("Не удалось создать файл", 10);
 
-        return $isChanged;
+        return $isChangedConfig;
     }
 }

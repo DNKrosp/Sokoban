@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8e10438-a139-4098-94d0-4722a47a25eb" name="Default Changelist" comment="" />
+    <list default="true" id="d8e10438-a139-4098-94d0-4722a47a25eb" name="Default Changelist" comment="Закладки управления">
+      <change afterPath="$PROJECT_DIR$/src/Entity/Entity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.php" beforeDir="false" afterPath="$PROJECT_DIR$/run.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/action.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +25,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hwh90eFR21y3u6Qp9KhHOYvPWi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,8 +37,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Entity" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="run.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/run.php">
@@ -46,46 +72,93 @@
       <updated>1600927906692</updated>
       <workItem from="1600927907847" duration="4563000" />
       <workItem from="1600934852651" duration="607000" />
-      <workItem from="1600974650905" duration="491000" />
+      <workItem from="1600974650905" duration="4879000" />
+      <workItem from="1601007519859" duration="59000" />
+      <workItem from="1601026410309" duration="38000" />
+      <workItem from="1601107279983" duration="106000" />
     </task>
+    <task id="LOCAL-00001" summary="Закладки управления">
+      <created>1600975190464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600975190464</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Закладки управления" />
+    <option name="LAST_COMMIT_MESSAGE" value="Закладки управления" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="57" y="194" width="824" height="678" key="#CLI_Interpreters" timestamp="1600930191380">
+    <state x="57" y="194" width="824" height="678" key="#CLI_Interpreters" timestamp="1600975995351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="57" y="194" width="824" height="678" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1600930191380" />
-    <state x="0" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600930162828">
+    <state x="57" y="194" width="824" height="678" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1600975995351" />
+    <state x="0" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600975999794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600930162828" />
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1600932472452">
+    <state x="0" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600975999794" />
+    <state x="761" y="204" width="387" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1600976542962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600932472452" />
-    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1600932472451">
+    <state x="761" y="204" width="387" height="624" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600976542962" />
+    <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1600975151937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600932472451" />
-    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1600932472451">
+    <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600975151937" />
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom" timestamp="1600979108825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600932472451" />
-    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1600932472452">
+    <state width="1878" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600979108825" />
+    <state width="1878" height="276" key="GridCell.Tab.0.center" timestamp="1600979108824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600932472452" />
-    <state x="730" y="248" width="450" height="536" key="NewPhpClassDialog" timestamp="1600928577731">
+    <state width="1878" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600979108824" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left" timestamp="1600979108824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="730" y="248" width="450" height="536" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600928577731" />
+    <state width="1878" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600979108824" />
+    <state width="1878" height="276" key="GridCell.Tab.0.right" timestamp="1600979108825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600979108825" />
+    <state x="730" y="248" width="450" height="536" key="NewPhpClassDialog" timestamp="1600976403913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="248" width="450" height="536" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600976403913" />
     <state x="778" y="445" width="354" height="141" key="NewPhpFileDialog" timestamp="1600928555963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="778" y="445" width="354" height="141" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600928555963" />
+    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1600975277452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600975277452" />
+    <state x="768" y="436" width="373" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600975229536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="768" y="436" width="373" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600975229536" />
+    <state x="764" y="431" width="381" height="170" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600975209243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="431" width="381" height="170" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600975209243" />
     <state x="143" y="238" key="run.anything.popup" timestamp="1600928997590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -94,16 +167,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="142" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600930014050" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/run.php</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
