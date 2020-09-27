@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1601107073 source:/home/krosp/Documents/Projects/cutils/main.c
-	<stdlib.h>
-	<string.h>
-	<unistd.h>
-	<sys/select.h>
-	<termios.h>
-

@@ -1,23 +1,25 @@
 <?php
 
-//включение неблокирующего ввода в терминале
-include "lib/cutils/bin/Debug/libcutils.a";
-
 require_once "src/action.php";
 require_once "src/Entity/Entity.php";
 require_once "src/Entity/User.php";
+require_once "src/Control/ControlEscTerminalLinux.php";
 
-$systemOfAction = new Action("./config/keys.json");
-$player0 = new User($systemOfAction);
-$player0->run();
+$control = new ControlEscTerminalLinux();
+$i = 0;
+while (true)
+{
+    $i++;
 
+    $a = $control->getAction();
+    if(is_array($a))
+    {
+        print_r($a);
+        unset($a);
+    }
 
-//echo $systemOfAction->getAction("w").PHP_EOL;
-//echo $systemOfAction->getAction("a").PHP_EOL;
-//echo $systemOfAction->getAction("s").PHP_EOL;
-//echo $systemOfAction->getAction("d").PHP_EOL;
-//echo $systemOfAction->getAction("esc").PHP_EOL;
-//echo $systemOfAction->getAction("k").PHP_EOL;
-//echo $systemOfAction->getAction("l").PHP_EOL;
+    if($i % 10000)
+        echo "mobo:$i".PHP_EOL;
+}
 
 
