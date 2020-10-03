@@ -3,37 +3,18 @@
 
 class ControlEscTerminalLinux
 {
-    private $settings = [
-        "player0"=>[
-            "up"=>[119], //w
-            "down"=>[115], //a
-            "left"=>[97], //s
-            "right"=>[100] //d
-        ],
-        "player1"=>[
-            "up"=>[[27, 91, 65]], //arrow up
-            "down"=>[[27, 91, 66]], //arrow down
-            "left"=>[[27, 91, 68]], //arrow left
-            "right"=>[[27, 91, 67]] //arrow right
-        ],
-        "game"=>[
-            "pause"=>[27]
-        ]
-    ];
-
     public $settingsMapped = [
-        "119"=>["player0"=>"up"],
-        "115"=>["player0"=>"left"],
-        "97"=>["player0"=>"down"],
-        "100"=>["player0"=>"right"],
+        "119"=>"up",
+        "115"=>"down",
+        "97"=>"left",
+        "100"=>"right",
         "27"=>[
-            ["game"=>"pause"],
             "91"=>[
-                "65"=>["player1"=>"up"],
-                "66"=>["player1"=>"down"],
-                "67"=>["player1"=>"right"],
-                "68"=>["player1"=>"left"],
-        ]]
+                "65"=>"up",
+                "66"=>"down",
+                "67"=>"right",
+                "68"=>"left",
+            ]]
     ];
 
     private $stdin;
@@ -41,10 +22,7 @@ class ControlEscTerminalLinux
     public function __construct($settings = null)
     {
         if($settings!==null)
-        {
-            //todo сделать валидацию настроек в зависимости от возможностей персонажа
             $this->settings = $settings;
-        }
 
         //выход из канонического режима ввода (требование нажатия Enter)
         system("stty -icanon -echo");
@@ -91,9 +69,6 @@ class ControlEscTerminalLinux
             if(key_exists($key, $command))
                 $command=$command[$key];
         }
-
-        if(count($command)>1)
-            $command=$command[0];
 
         return $command;
     }
