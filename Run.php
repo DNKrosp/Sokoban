@@ -14,6 +14,8 @@ class Run
         require_once("src/Games/Sokoban/SokobanMap.php");
         require_once("src/Games/Sokoban/SokobanEntityFabric.php");
         require_once("src/Games/Sokoban/User.php");
+        require_once("src/Games/Sokoban/Wall.php");
+        require_once("src/Games/Sokoban/Box.php");
 
 
     }

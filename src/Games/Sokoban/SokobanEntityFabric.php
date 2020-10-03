@@ -4,19 +4,19 @@
 class SokobanEntityFabric implements EntityFabric
 {
 
-    static function create($name_entity)
+    static function create($name_entity, $x, $y)
     {
         $object = false;
 
         switch ($name_entity)
         {
             case "box": {
-                $object = new Box();
+                $object = new Box($x, $y);
                 break;
             }
 
             case "user": {
-                $object = new User(5, 5);
+                $object = new User($x, $y);
                 break;
             }
 
@@ -26,7 +26,7 @@ class SokobanEntityFabric implements EntityFabric
             }
 
             case "wall": {
-                $object = new Wall();
+                $object = new Wall($x, $y);
                 break;
             }
         }

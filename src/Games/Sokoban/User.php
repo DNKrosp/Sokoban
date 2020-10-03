@@ -15,7 +15,7 @@ class User implements Entity
         $this->y = $y;
     }
 
-    public function checkCollapse($type, $side)
+    public function collapse($lvl, $matrixOffset)
     {
         // TODO: Implement checkCollapse() method.
     }
@@ -38,17 +38,18 @@ class User implements Entity
         return [$this->new_x, $this->new_y];
     }
 
-    public function acceptNewCoords()
+    public function acceptNewCoords($isMove = true)
     {
-        if($this->new_x!==null && $this->new_y !== null)
-        {
-            $this->x = $this->new_x;
-            $this->y = $this->new_y;
-            $this->new_x = null;
-            $this->new_y = null;
+        if($isMove)
+            if($this->new_x!==null && $this->new_y !== null)
+            {
+                $this->x = $this->new_x;
+                $this->y = $this->new_y;
+                $this->new_x = null;
+                $this->new_y = null;
 
-            $this->isRender = true;
-        }
+                $this->isRender = true;
+            }
     }
 
     public function needRerender()
@@ -60,5 +61,11 @@ class User implements Entity
     {
         echo chr(27)."[$this->y;$this->x"."f";
         echo "@";
+        echo chr(27)."[$this->y;$this->x"."f";
+    }
+
+    public function getPosition()
+    {
+        return [$this->x, $this->y];
     }
 }

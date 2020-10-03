@@ -3,5 +3,5 @@
 
 interface EntityFabric
 {
-    static function create($name_entity);
+    static function create($name_entity, $x, $y);
 }

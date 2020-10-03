@@ -11,5 +11,9 @@ interface Entity
 
     public function needRerender();
 
-    public function checkCollapse($type, $side);
+    public function collapse($lvl, $matrixOffset);
+
+    public function acceptNewCoords();
+
+    public function getPosition();
 }

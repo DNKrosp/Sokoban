@@ -11,27 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8e10438-a139-4098-94d0-4722a47a25eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/Maps/Sokoban/lv0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Maps/Sokoban/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EntityFabric.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Games/Sokoban/Bomb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Games/Sokoban/Box.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Games/Sokoban/SokobanEntityFabric.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Games/Sokoban/SokobanMap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Games/Sokoban/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Games/Sokoban/Wall.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Games/Sokoban/run.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IMap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/coursorJump.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Run.php" beforeDir="false" afterPath="$PROJECT_DIR$/Run.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/Maps/lv0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme/ClassDiagramm.graphml" beforeDir="false" afterPath="$PROJECT_DIR$/scheme/ClassDiagramm.graphml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Control/ControlEscTerminalLinux.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Control/ControlEscTerminalLinux.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map/Map.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/Maps/Sokoban/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/Maps/Sokoban/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EntityFabric.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EntityFabric.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Games/Sokoban/Box.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games/Sokoban/Box.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Games/Sokoban/SokobanEntityFabric.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games/Sokoban/SokobanEntityFabric.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Games/Sokoban/SokobanMap.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games/Sokoban/SokobanMap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Games/Sokoban/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games/Sokoban/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Games/Sokoban/Wall.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Games/Sokoban/Wall.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +106,7 @@
       <workItem from="1601107279983" duration="106000" />
       <workItem from="1601191112543" duration="23136000" />
       <workItem from="1601226539149" duration="507000" />
-      <workItem from="1601716581808" duration="18550000" />
+      <workItem from="1601716581808" duration="24643000" />
     </task>
     <task id="LOCAL-00001" summary="Закладки управления">
       <created>1600975190464</created>
@@ -133,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601208613226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Управление объектом">
+      <created>1601749258902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601749258902</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Закладки управления" />
     <MESSAGE value="Внедрение управления&#10;&#10;todo: сделать запуск управления через другой поток" />
-    <option name="LAST_COMMIT_MESSAGE" value="Внедрение управления&#10;&#10;todo: сделать запуск управления через другой поток" />
+    <MESSAGE value="Управление объектом" />
+    <option name="LAST_COMMIT_MESSAGE" value="Управление объектом" />
   </component>
   <component name="WindowStateProjectService">
     <state x="57" y="194" width="824" height="678" key="#CLI_Interpreters" timestamp="1601191386993">
@@ -169,10 +166,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600975999794" />
-    <state x="761" y="204" width="397" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1601743494995">
+    <state x="761" y="204" width="397" height="624" key="#com.intellij.ide.util.MemberChooser" timestamp="1601766304859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="204" width="397" height="624" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601743494995" />
+    <state x="761" y="204" width="397" height="624" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601766304859" />
     <state x="440" y="337" width="311" height="353" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601730095006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -181,46 +178,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="693" y="269" width="524" height="494" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601729989771" />
-    <state x="558" y="91" width="794" height="850" key="CommitChangelistDialog2" timestamp="1601208613106">
+    <state x="558" y="91" width="794" height="850" key="CommitChangelistDialog2" timestamp="1601749258734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="91" width="794" height="850" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601208613106" />
+    <state x="558" y="91" width="794" height="850" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601749258734" />
     <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl" timestamp="1600975151937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="277" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600975151937" />
-    <state width="1878" height="325" key="GridCell.Tab.0.bottom" timestamp="1601747676792">
+    <state width="1878" height="325" key="GridCell.Tab.0.bottom" timestamp="1601763566127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601747676792" />
-    <state width="1878" height="325" key="GridCell.Tab.0.center" timestamp="1601747676792">
+    <state width="1878" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601763566127" />
+    <state width="1878" height="325" key="GridCell.Tab.0.center" timestamp="1601763566126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601747676792" />
-    <state width="1878" height="325" key="GridCell.Tab.0.left" timestamp="1601747676791">
+    <state width="1878" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601763566126" />
+    <state width="1878" height="325" key="GridCell.Tab.0.left" timestamp="1601763566126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601747676791" />
-    <state width="1878" height="325" key="GridCell.Tab.0.right" timestamp="1601747676792">
+    <state width="1878" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601763566126" />
+    <state width="1878" height="325" key="GridCell.Tab.0.right" timestamp="1601763566127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601747676792" />
-    <state width="1878" height="325" key="GridCell.Tab.1.bottom" timestamp="1601747676793">
+    <state width="1878" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601763566127" />
+    <state width="1878" height="325" key="GridCell.Tab.1.bottom" timestamp="1601763537529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601747676793" />
-    <state width="1878" height="325" key="GridCell.Tab.1.center" timestamp="1601747676792">
+    <state width="1878" height="325" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601763537529" />
+    <state width="1878" height="325" key="GridCell.Tab.1.center" timestamp="1601763537529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601747676792" />
-    <state width="1878" height="325" key="GridCell.Tab.1.left" timestamp="1601747676792">
+    <state width="1878" height="325" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601763537529" />
+    <state width="1878" height="325" key="GridCell.Tab.1.left" timestamp="1601763537528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601747676792" />
-    <state width="1878" height="325" key="GridCell.Tab.1.right" timestamp="1601747676792">
+    <state width="1878" height="325" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601763537528" />
+    <state width="1878" height="325" key="GridCell.Tab.1.right" timestamp="1601763537529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601747676792" />
+    <state width="1878" height="325" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601763537529" />
     <state x="730" y="248" width="548" height="536" key="NewPhpClassDialog" timestamp="1601730717047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,10 +230,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="464" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601199721588" />
-    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1601208619838">
+    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1601749267877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601208619838" />
+    <state x="555" y="255" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601749267877" />
     <state x="100" y="99" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601746953575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -265,5 +262,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="142" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601743471286" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Games/Sokoban/SokobanMap.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
